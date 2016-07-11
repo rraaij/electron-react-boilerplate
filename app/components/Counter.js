@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 import styles from './Counter.css';
+import { Col, Row } from './Grid';
 
 class Counter extends Component {
   static propTypes = {
@@ -14,16 +15,16 @@ class Counter extends Component {
   render() {
     const { increment, incrementIfOdd, incrementAsync, decrement, counter } = this.props;
     return (
-      <div>
-        <div className={styles.backButton}>
+      <Row>
+        <Col xs="3" md="4" className={styles.backButton}>
           <Link to="/">
             <i className="fa fa-arrow-left fa-3x" />
           </Link>
-        </div>
-        <div className={`counter ${styles.counter}`}>
+        </Col>
+        <Col xs="3" md="4" className={`counter ${styles.counter}`}>
           {counter}
-        </div>
-        <div className={styles.btnGroup}>
+        </Col>
+        <Col xs="6" md="4" className={styles.btnGroup}>
           <button className={styles.btn} onClick={increment}>
             <i className="fa fa-plus"></i>
           </button>
@@ -32,8 +33,8 @@ class Counter extends Component {
           </button>
           <button className={styles.btn} onClick={incrementIfOdd}>odd</button>
           <button className={styles.btn} onClick={() => incrementAsync()}>async</button>
-        </div>
-      </div>
+        </Col>
+      </Row>
     );
   }
 }
