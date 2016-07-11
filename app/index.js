@@ -12,7 +12,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();
 
-
 const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);
 
