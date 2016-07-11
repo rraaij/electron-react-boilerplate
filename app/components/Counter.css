@@ -1,20 +1,20 @@
 .backButton {
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .counter {
-  position: absolute;
-  top: 30%;
-  left: 45%;
+  /*position: absolute;*/
+  /*top: 30%;*/
+  /*left: 45%;*/
   font-size: 10rem;
   font-weight: bold;
   letter-spacing: -.025em;
 }
 
 .btnGroup {
-  position: relative;
-  top: 500px;
-  width: 480px;
+  /*position: relative;*/
+  /*top: 500px;*/
+  /*width: 480px;*/
   margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@
   height: 100px;
   opacity: .7;
   cursor: pointer;
-  font-family: Arial, Helvetica, Helvetica Neue;
+  font-family: Roboto, Arial, Helvetica, Helvetica Neue;
 }
 
 .btn:hover {

@@ -108,12 +108,15 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "css-modules-require-hook": "^4.0.0",
     "electron-debug": "^1.0.1",
+    "flexboxgrid": "^6.3.0",
     "font-awesome": "^4.6.3",
     "postcss": "^5.0.21",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-flexbox-grid": "^0.9.6",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.1",
     "react-router-redux": "^4.0.4",
